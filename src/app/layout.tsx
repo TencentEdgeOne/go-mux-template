@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Go Functions on EdgeOne Pages - Gorilla Mux",
+  title: "Gorilla Mux + EdgeOne Pages",
   description: "Go Functions allow you to run Go web frameworks like Gorilla Mux on EdgeOne Pages. Build full-stack applications with Mux's powerful URL routing and middleware.",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
-        <link rel="icon" href="/eo-logo-blue.svg" />
+        <link rel="icon" href="/mux-favicon.svg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
